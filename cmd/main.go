@@ -9,11 +9,11 @@ import (
 	"sync"
 	"syscall"
 
-	analyzer "mono/lib/analyser"
-	"mono/lib/git"
-	"mono/lib/runner"
-	"mono/lib/utils"
+	analyzer "github.com/nicolasgere/monogo/lib/analyser"
 
+	"github.com/nicolasgere/monogo/lib/git"
+	"github.com/nicolasgere/monogo/lib/runner"
+	"github.com/nicolasgere/monogo/lib/utils"
 	"github.com/urfave/cli/v2"
 )
 

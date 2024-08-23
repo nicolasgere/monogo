@@ -1,4 +1,4 @@
-module mono
+module github.com/nicolasgere/monogo
 
 go 1.22.4
 

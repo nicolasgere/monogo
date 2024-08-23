@@ -5,8 +5,9 @@ import (
 	"context"
 	"fmt"
 	"io"
-	"mono/lib/utils"
 	"os/exec"
+
+	"github.com/nicolasgere/monogo/lib/utils"
 )
 
 func NewRunner(ctx context.Context, concurency int) Runner {
